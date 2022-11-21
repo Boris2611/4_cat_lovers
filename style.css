@@ -9,19 +9,28 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-
+h1 {
+  text-align: center;
+  color: #70553a;
+}
 
 header {
-    text-align: center;
-    font-size: 20px;
+    
+
     background-color: #faedcd;
     color: #d4a373;
-    padding: 10px;
+    padding: 5px;
     border: 1px solid #d4a373;
     position: fixed;
     width: 100%;
 }
 
+.header_text {
+  padding-top:5px ;
+  padding-left: 10px;
+  color: #70553a;
+  font-size: 35px;
+}
 
 
 
@@ -82,10 +91,7 @@ header {
     padding: 10%;
   }
 
-  h1 {
-    text-align: center;
-    color: #70553a;
-  }
+
 
   img {
     width: 100%;
